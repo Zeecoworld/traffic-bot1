@@ -1,0 +1,1 @@
+worker: python ad_clicker.py
