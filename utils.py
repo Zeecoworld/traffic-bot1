@@ -249,6 +249,7 @@ def create_webdriver(proxy: str, auth: bool, headless: bool) -> undetected_chrom
     chrome_options.add_argument("--disable-notifications")
     chrome_options.add_argument("--ignore-ssl-errors")
     chrome_options.add_argument("--start-maximized")
+    chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument(f"--user-agent={user_agent_str}")
 
     if headless:
